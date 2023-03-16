@@ -1,0 +1,15 @@
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\obj\Debug\net6.0\KIDApp.csproj.AssemblyReference.cache
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\obj\Debug\net6.0\KIDApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\obj\Debug\net6.0\KIDApp.AssemblyInfoInputs.cache
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\obj\Debug\net6.0\KIDApp.AssemblyInfo.cs
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\obj\Debug\net6.0\KIDApp.csproj.CoreCompileInputs.cache
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\bin\Debug\net6.0\KIDApp.exe
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\bin\Debug\net6.0\KIDApp.deps.json
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\bin\Debug\net6.0\KIDApp.runtimeconfig.json
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\bin\Debug\net6.0\KIDApp.dll
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\bin\Debug\net6.0\KIDApp.pdb
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\obj\Debug\net6.0\KIDApp.dll
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\obj\Debug\net6.0\refint\KIDApp.dll
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\obj\Debug\net6.0\KIDApp.pdb
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\obj\Debug\net6.0\KIDApp.genruntimeconfig.cache
+C:\Users\Bryce\Desktop\ElevenFiftyProjects\Coding Foundations\assignments\komodo_insurance\KIDApp\obj\Debug\net6.0\ref\KIDApp.dll

@@ -1,21 +1,22 @@
-public bool hasPSAccess = ;
-
+namespace KIDApp
+{
 public class Developer
     {
-        public string Name {get; set;}
+        public string DevName {get; set;}
 
         public int NOI {get; set;}
         //NOI = number of identification
 
-        public bool hasPSAccess {get; set;}
+        public bool HasPSAccess {get; set;}
 
         public Developer() {}
 
-        public Developer(string name, int NOI, bool hasPSAccess) 
+        public Developer(string devName, int nOI, bool hasPSAccess) 
         {
-            Name=name;
-            NOI=noi;
-
+            DevName=devName;
+            NOI=nOI;
+            HasPSAccess = hasPSAccess;
         }
 
     }
+}
