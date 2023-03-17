@@ -2,15 +2,19 @@ namespace KIDApp
 {
  public class DeveloperRepo
 {
+    public DeveloperRepo()
+    {
+    Seed();
+    }
     private readonly List<Developer> _developersList = new List<Developer>();
 
 
 // ADD DEVELOPERS
-    public Boolean AddMembersToList(Developer person)
+    public Boolean AddMembersToList(Developer developer)
     {
         int startingCount = _developersList.Count;
 
-        _developersList.Add(person);
+        _developersList.Add(developer);
 
         bool SuccessfullyAdded = _developersList.Count > startingCount;
 
@@ -28,11 +32,11 @@ namespace KIDApp
 // FIND A DEVELOPER by ID number(NOI)
     public Developer FindDeveloperNOI(int nOI) 
     {
-        foreach(Developer person in _developersList) 
+        foreach(Developer developer in _developersList) 
         {
-            if (person.NOI == nOI)
+        if (developer.NOI == nOI)
             {
-                return person;
+                return developer;
             }
 
         }
@@ -43,11 +47,11 @@ namespace KIDApp
     // FIND A DEVELOPER by NAME (DevName)
     public Developer FindDeveloperName(string devName) 
     {
-        foreach(Developer person in _developersList) 
+        foreach(Developer developer in _developersList) 
         {
-            if (person.DevName.ToLower() == devName.ToLower())
+            if (developer.DevName.ToLower() == devName.ToLower())
             {
-                return person;
+                return developer;
             }
 
         }
@@ -61,11 +65,11 @@ namespace KIDApp
     {
         List<Developer> membersWithAccess = new List<Developer>();//Creates list to gather people. List no longer exists after return
 
-        foreach(Developer person in _developersList) 
+        foreach(Developer developer in _developersList) 
         {
-            if (person.HasPSAccess)
+            if (developer.HasPSAccess)
             {
-                membersWithAccess.Add(person);
+                membersWithAccess.Add(developer);
             }
 
         }
@@ -103,5 +107,13 @@ namespace KIDApp
         else {return false;}
     }
 
+
+    private void Seed()
+        {
+            Developer john = new Developer("John Doe", 123456, true);
+            Developer jane = new Developer("Jane Doe", 789012, false);
+            AddMembersToList(john);
+            AddMembersToList(jane);
+        }
 }
 }

@@ -1,5 +1,5 @@
-namespace KIDApp
-{
+//namespace KIDApp
+//{
 public class Developer
     {
         public string DevName {get; set;}
@@ -19,4 +19,4 @@ public class Developer
         }
 
     }
-}
+//}
