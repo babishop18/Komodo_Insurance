@@ -1,16 +1,18 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 namespace KIDApp
 {
  public class DeveloperRepo
 {
-    public DeveloperRepo()
-    {
-    Seed();
-    }
+    
     private readonly List<Developer> _developersList = new List<Developer>();
+    public readonly List<Developer> membersWithAccess = new List<Developer>();
 
 
 // ADD DEVELOPERS
-    public Boolean AddMembersToList(Developer developer)
+    public Boolean AddToDevList(Developer developer)
     {
         int startingCount = _developersList.Count;
 
@@ -22,7 +24,7 @@ namespace KIDApp
     }
 
 
-// READ LSIT OF PEOPLE
+// READ LIST OF PEOPLE
     public List<Developer> GetAllDevelopers() 
     {
         return _developersList;
@@ -63,7 +65,7 @@ namespace KIDApp
 // FIND DEVELOPERS WHO HAVE ACCESS TO PLURALSIGHT (HasPSAccess)
     public List<Developer> FindDevelopersWithAccess() 
     {
-        List<Developer> membersWithAccess = new List<Developer>();//Creates list to gather people. List no longer exists after return
+        //List<Developer> membersWithAccess = new List<Developer>();//Creates list to gather people. List no longer exists after return
 
         foreach(Developer developer in _developersList) 
         {
@@ -107,13 +109,11 @@ namespace KIDApp
         else {return false;}
     }
 
+    public bool VerifyDev(int developerNOI)
+    {
+        return (FindDeveloperNOI(developerNOI) != null);
+    }
 
-    private void Seed()
-        {
-            Developer john = new Developer("John Doe", 123456, true);
-            Developer jane = new Developer("Jane Doe", 789012, false);
-            AddMembersToList(john);
-            AddMembersToList(jane);
-        }
+    
 }
 }
