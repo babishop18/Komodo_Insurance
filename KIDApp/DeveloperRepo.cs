@@ -7,7 +7,7 @@ namespace KIDApp
  public class DeveloperRepo
 {
     
-    private readonly List<Developer> _developersList = new List<Developer>();
+    public readonly List<Developer> _developersList = new List<Developer>();
     public readonly List<Developer> membersWithAccess = new List<Developer>();
 
 

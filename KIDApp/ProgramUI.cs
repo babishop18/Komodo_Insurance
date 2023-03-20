@@ -549,18 +549,23 @@ namespace KIDApp
 
             public string DisplayMembersWithAccess() 
             {
-                foreach(Developer developer in _devRepo.membersWithAccess)
+                Console.Clear();
+                System.Console.WriteLine("Developers with access to Pluralsight:");
+                foreach(Developer developer in _devRepo._developersList)
                 {
-                    System.Console.WriteLine("\n"+
-                    $"Name:{developer.DevName}\n" +
-                    $"Employee ID: {developer.NOI}\n" +
-                    $"Access to Pluralsight: {developer.HasPSAccess}\n"
-                    
-                    );
+                    if(developer.HasPSAccess)
+                    {
+                        System.Console.WriteLine("\n" +
+                        $"Name:{developer.DevName}\n" +
+                        $"Employee ID: {developer.NOI}\n" +
+                        $"Access to Pluralsight: {developer.HasPSAccess}\n"
+                        );
+                    }
                 }
-                return null;
-
                 continueButton();
+                return null;
+                
+                
             }
 
             private void Seed()
